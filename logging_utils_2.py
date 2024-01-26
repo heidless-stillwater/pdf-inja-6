@@ -35,7 +35,7 @@ def decorator_function(orig_func):
 
 def pn_logger(orig_func):
     import logging
-    logging.basicConfig(filename='./app/logs/pdf_ninja.log'.format(orig_func.__name__), level=logging.INFO)
+    logging.basicConfig(filename='./logs/pdf_ninja.log'.format(orig_func.__name__), level=logging.INFO)
 
     @wraps(orig_func)
     def wrapper(*args, **kwargs):

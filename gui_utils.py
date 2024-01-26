@@ -68,7 +68,7 @@ class PdfNinja(ttk.Frame):
         # self.page_switch_to_support()
         self.pageSwitchToDashboard()
 
-    #@pn_log.pn_logger
+    @pn_log.pn_logger
     # @pn_log.pn_timer
     def appMgrCreate(self) -> None:
         # ic('in app mgr create')
