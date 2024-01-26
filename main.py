@@ -5,7 +5,6 @@ import os
 from icecream import ic
 from PIL import Image, ImageTk
 
-
 if __name__ == '__main__':
     print(f'starting: {os.getcwd()}')
 
