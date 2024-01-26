@@ -6,7 +6,7 @@ from icecream import ic
 from PIL import Image, ImageTk
 
 if __name__ == '__main__':
-    print(f'starting: {os.getcwd()}')
+    # print(f'starting: {os.getcwd()}')
 
     # app = ttk.Window('GradeBook', 'superhero', resizeable=(False, False))
 
